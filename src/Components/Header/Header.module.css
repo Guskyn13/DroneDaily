@@ -1,0 +1,76 @@
+.login_signup {
+     display: flex;
+     height: 105px;
+     box-sizing: border-box;
+     width: 100%;
+     background-color: teal;
+     margin: 0;
+     padding: 0;
+     font-size: 25px;
+}
+
+.login_signup h1 {
+     align-self: center;
+     margin: 0;
+     float: left;
+     line-height: 30px;
+     margin-left: 5%;
+}
+
+.login_signup h1 span {
+     color: hotpink
+}
+
+.login_signup nav {
+     align-self: center;
+     margin-left: 10%;
+}
+
+.login_signup .nav {
+     color: #fff;
+     text-decoration: none;
+     font-size: 1.5rem;
+     padding: 0;
+     margin-left: 30px;
+     font-weight: bold;
+}
+
+.login_signup .nav:hover {
+     color: hotpink;
+}
+
+.login_signup ul {
+     align-self: center;
+     list-style: none;
+     float: right;
+}
+
+.login_signup ul li {
+     display: inline-block;
+     margin-left: 20px;
+}
+
+.login_signup ul li a {
+     color: #fff;
+     text-decoration: none;
+     font-weight: bold;
+}
+
+.login_signup ul li a:hover {
+     color: #000;
+}
+
+.signup {
+     border: 1px #fff solid;
+     padding: 7px;
+}
+
+.signup:hover {
+     border: 1px #000 solid;
+     padding: 7px;
+}
+
+.btns {
+     display: flex;
+     margin-left: 50%;
+}
