@@ -1,0 +1,77 @@
+.signup {
+     background-image: url('../../Images/LoginBackground.jpg');
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
+     justify-content: center;
+     align-items: center;
+}
+
+.imgLogo {
+     height: 250px;
+     width: 250px;
+}
+
+.signup_card {
+     background: transparent;
+     backdrop-filter: blur(10px);
+     border: 2px solid #000;
+     height: 500px;
+     width: 400px;
+     border-radius: 2%;
+     box-shadow: -12px -12px #2e2b2ab4;
+     overflow: hidden;
+}
+
+.signup_h2 {
+     display: flex;
+     font-size: 3rem;
+     justify-content: center;
+     margin-top: 30px;
+}
+
+.inputBox {
+     margin: 10px 25px 20px 10px;
+     cursor: default;
+}
+
+.input {
+     width: 100%;
+     padding: 8px;
+     border: none;
+     border-radius: 3px;
+}
+
+.input::placeholder {
+     color: #000;
+}
+
+.error {
+     display: flex;
+     justify-content: center;
+}
+
+.signup_btn {
+     width: 350px;
+     margin: 19px 8px 0px 25px;
+     padding: 5px 0px;
+     outline: none;
+     border: none;
+     border-radius: 3px;
+}
+
+.signup_btn:hover {
+     background-color: #65A165;
+}
+
+.already {
+     color: #fff;
+     margin: 10px 0px 0px 90px;
+}
+
+.need {
+     display: flex;
+     justify-content: center;
+}
