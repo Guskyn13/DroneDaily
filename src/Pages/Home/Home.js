@@ -52,7 +52,7 @@ export default function Home() {
                     </div>
 
                     <div className={HomeCss.image_container}>
-                         <div className={HomeCss.image .img1}>
+                         <div className={HomeCss.image.img1}>
                               <img src={Downtown} className={HomeCss.imgs} alt="downtown" />
                          </div>
                          <div className={HomeCss.image.img2}>
