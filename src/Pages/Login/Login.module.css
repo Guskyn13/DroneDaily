@@ -1,0 +1,92 @@
+.login {
+     background-image: url('../../Images/LoginBackground.jpg');
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
+     justify-content: center;
+     align-items: center;
+}
+
+.imgLogo {
+     height: 250px;
+     width: 250px;
+}
+
+.login_card {
+     background: transparent;
+     backdrop-filter: blur(10px);
+     border: 2px solid #000;
+     height: 460px;
+     width: 400px;
+     border-radius: 2%;
+     box-shadow: -12px -12px #2e2b2ab4;
+     overflow: hidden;
+}
+
+.login_h2 {
+     display: flex;
+     font-size: 3rem;
+     justify-content: center;
+     margin-top: 37px;
+}
+
+.inputBox {
+     margin: 18px 25px 0 10px;
+     cursor: default;
+}
+
+.input {
+     width: 100%;
+     padding: 8px;
+     border: none;
+     border-radius: 3px;
+}
+
+.input::placeholder {
+     color: #000;
+}
+
+.errors {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     padding: 10px;
+}
+
+.error {
+     padding-left: 15px;
+}
+
+.login_btn {
+     width: 350px;
+     margin: 20px 8px 0px 25px;
+     padding: 5px 0px;
+     outline: none;
+     border: none;
+     border-radius: 3px;
+}
+
+.login_btn:hover {
+     background-color: #65A165;
+}
+
+.forgot {
+     margin: 10px 0px 0px 140px;
+}
+
+.need {
+     color: #fff;
+     margin: 10px 0px 0px 110px;
+}
+
+.needs {
+     color: #fff;
+     margin: 10px 0px 0px 110px;
+     padding-left: 48px;
+}
+
+.errors {
+     margin-left: 23%;
+}
