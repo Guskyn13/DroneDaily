@@ -1,0 +1,21 @@
+.upload_form {
+     padding: 0;
+}
+
+.form {
+     margin-left: 50%;
+}
+
+.upload_input {
+     display: flex;
+     margin-top: 100px;
+     display: none;
+}
+
+.file_upload {
+     align-items: center;
+     width: 75px;
+     background: transparent;
+     margin-top: 100px;
+     cursor: pointer;
+}
