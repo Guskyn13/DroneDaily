@@ -1,7 +1,7 @@
 .login_signup {
      display: flex;
      height: 105px;
-     box-sizing: border-box;
+     /* box-sizing: border-box; */
      width: 100%;
      background-color: teal;
      margin: 0;
